@@ -1,5 +1,5 @@
 ## GOFUNDME smart contract
-# this is a smart contract that allow individuals from to contribute to a charitable course
+# this is a smart contract that allow individuals from anywhere  to contribute to a charitable course
 # HOW THE CONTRACTS WORKS
 - a campaigner create a campaign stating the purpose of contributing, the actual funds needed, an id to identiify the campaign  and the deadline
 - user contribute to the contract by sending eth and inserting  the id to single out the expected campaign
