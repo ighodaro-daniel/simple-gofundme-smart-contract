@@ -1,66 +1,7 @@
-## Foundry
-
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## GOFUNDME smart contract
+# this is a smart contract that allow individuals from to contribute to a charitable course
+# HOW THE CONTRACTS WORKS
+- a campaigner create a campaign stating the purpose of contributing, the actual funds needed, an id to identiify the campaign  and the deadline
+- user contribute to the contract by sending eth and inserting  the id to single out the expected campaign
+- when the actual deadline is reach the campaigner withdraws the funds and send to the  charity organisation or individual notwithstanding whether the funds is complete or not
+- contibution stil goes on until the actual funds is complete  else the campaign is finished and restrict deposit
